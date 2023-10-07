@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "csc102 9 27 23 Motion.js"></script>
+    <title>csc102 9 25 23 toggle</title>
+    <script src = "csc102 9 25 23 Toggle.js"></script>
+    <link rel="stylesheet" href = "csc102 9 7 23 DM.css">
+</head>
+<body>
+    <h1 style="color: darkorange">
+        <center>
+            Moving Picture of Fire flames and Burning Fire Sounds
+        </center>
+    </h1>
+
+        <button id = "castButton" onclick = "cast();"> Caster </button>
+        <button id = "retrackButton" onclick = "retrack();"> RETRACKTOR </button>
+        <br> <br>
+
+        <audio controls>
+        <source src= "csc102 9 25 23 fireplace-fire-crackling-loop.mp3" type = "audio mp3"></source>
+        </audio>
+
+        <button onclick = "FireOut();"> Fire outque</button>
+            <button onclick = "FireIn();"> Fire in que</button>
+
+        <body>
+            <br>
+            <button onclick = "motionStart();"> Motion Pic</button>
+            <button onclick = "motionStop();"> Kill Pic</button>
+            <div id = "msg"></div>
+            <br>  
+            <img src = "csc102 Index Img 7" id = "img" style = "position:absolute; left: 100; top: 100; width: 100;"/>
+            <br>
+            <br>
+            <br>
+        <footer> <iframe width="560" height="315" src="https://www.bing.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></footer>
+        </body>
+        </html>

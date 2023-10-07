@@ -1,0 +1,36 @@
+h1
+{
+    color:darkorange
+    text-align center;
+}
+
+nav
+{
+    display: block;
+    background-color: darkorange;
+}
+body{
+    background-color: darkorange; 
+    background-image: linear-gradient(red,green); 
+    background-image: radial-gradient(pink,blue);
+    background-repeat: no-repeat;
+    }
+
+    .buttonsDM
+    {
+        background-color: darkorange;
+        border-color: darkorange;
+        width: 100px;
+        height: 40px;
+        border-radius: 30px;
+        border-style: double;
+        cursor: pointer;
+    }
+    footer
+    {
+        background-color: darkorange;
+    }
+    button{
+    background-color:  darkorange;
+    }
+
